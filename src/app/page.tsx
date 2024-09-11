@@ -1,7 +1,8 @@
+import AdminPage from "./(dashboard)/admin/page"
 
 const Homepage = () => {
   return (
-    <div className="ng"><h1>admin <link href="/admin" /></h1></div>
+    <AdminPage />
   )
 }
 
